@@ -8,7 +8,7 @@ def dashboard():
 
 @app.route('/login')
 def login():
-    render_template('login.html')
+    return render_template('login.html')
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
