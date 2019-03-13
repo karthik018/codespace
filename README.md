@@ -1,4 +1,4 @@
 # codespace
 Create vitual environment : virtualenv venv
 Activate virtual environment : . venv/bin/activate
-Install Flask : pip install flask
+Run: pip3 install -r requirements.txt
